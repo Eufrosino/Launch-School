@@ -86,6 +86,7 @@ What operation would you like to perform?
   end
 
   prompt("#{operation_to_message(operator)} the two numbers...")
+  sleep(2)
 
   result = case operator
   when '1'
